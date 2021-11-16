@@ -3,6 +3,7 @@
 class RecentWork {
   final String image, category, title, url;
   final int id;
+  final bool private;
 
   RecentWork({
     required this.id,
@@ -10,6 +11,7 @@ class RecentWork {
     required this.category,
     required this.title,
     required this.url,
+    required this.private,
   });
 }
 
@@ -17,34 +19,56 @@ class RecentWork {
 List<RecentWork> recentWorks = [
   RecentWork(
     id: 1,
-    title: "Food Break",
+    title: "Yin Yang",
     category:
-        "Aplicativo para delivery de refeições e gerenciamento de restaurantes, utilizando apenas estrutura de dados. \nFerramentas: Dart e Flutter",
-    image: "../assets/img/foodBreak.png",
-    url: 'https://github.com/gabriel-baptista/projeto',
+        "Aplicação WEB / Mobile para auxiliar na gerência de clínicas de nutrição. \n\nTecnologias: Dart, Flutter e Firebase. \n\nProjeto Privado.",
+    image: "../assets/img/yin_yang_logo.png",
+    url: '#',
+    private: true,
   ),
   RecentWork(
     id: 2,
-    title: "Clone PicPay",
+    title: "Food Break",
     category:
-        "Aplicativo clone do PicPay, para fins de estudos. \n: Dart e Flutter",
-    image: "../assets/img/picpay.png",
-    url: 'https://github.com/gabriel-baptista/clone_picpay',
+        "Aplicativo para delivery de refeições e gerenciamento de restaurantes, utilizando apenas estrutura de dados. \n\nTecnologias: Dart e Flutter.",
+    image: "../assets/img/foodBreak.png",
+    url: 'https://github.com/gabriel-baptista/projeto',
+    private: false,
   ),
   RecentWork(
     id: 3,
-    title: "Tarefas",
+    title: "Clone PicPay",
     category:
-        "Aplicativo de para listar tarefas a fazer ou concluídas, para fins educativos. \nFerramentas: Dart e Flutter",
-    image: "../assets/img/checkList.png",
-    url: 'https://github.com/gabriel-baptista/lista_tarefas_flutter',
+        "Aplicativo clone do PicPay, para fins de estudos. \n\nTecnologias: Dart e Flutter.",
+    image: "../assets/img/picpay.png",
+    url: 'https://github.com/gabriel-baptista/clone_picpay',
+    private: false,
   ),
   RecentWork(
     id: 4,
+    title: "Tarefas",
+    category:
+        "Aplicativo de para listar tarefas a fazer ou concluídas, para fins educativos. \n\nTecnologias: Dart e Flutter.",
+    image: "../assets/img/checkList.png",
+    url: 'https://github.com/gabriel-baptista/lista_tarefas_flutter',
+    private: false,
+  ),
+  RecentWork(
+    id: 5,
     title: "Yin Yang",
     category:
-        "Aplicativo para gerenciar uma clínica nutricionista. \nFerramentas: C#, MySQL",
+        "Aplicativo para gerenciar uma clínica nutricionista. \n\nTecnologias: C# e MySQL.",
     image: "../assets/img/nutricao.png",
     url: 'https://github.com/gabriel-baptista/Yin-Yang/tree/main/YinYang',
+    private: false,
+  ),
+  RecentWork(
+    id: 6,
+    title: "Yin Yang",
+    category:
+        "Aplicativo para gerenciar uma clínica nutricionista. \n\nTecnologias: JAVA e MySQL.",
+    image: "../assets/img/nutricao.png",
+    url: 'https://github.com/gabriel-baptista/Yin-Yang/tree/main/YinYang',
+    private: false,
   ),
 ];
