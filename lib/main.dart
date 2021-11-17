@@ -5,7 +5,7 @@ import 'home_screen.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: 'Portfolio',
+    title: 'Gabriel Oliveira',
     theme: ThemeData(
       inputDecorationTheme: kDefaultInputDecorationTheme,
       visualDensity: VisualDensity.adaptivePlatformDensity,
