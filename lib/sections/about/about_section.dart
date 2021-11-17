@@ -55,7 +55,7 @@ class AboutSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               MyOutlineButton(
-                imageSrc: '../assets/img/hand.png',
+                imageSrc: 'assets/img/hand.png',
                 text: 'Contrate-me',
                 press: () {},
               ),
@@ -63,7 +63,7 @@ class AboutSection extends StatelessWidget {
                 width: kDefaultPadding * 1.5,
               ),
               DefaultButton(
-                imageSrc: '../assets/img/download.png',
+                imageSrc: 'assets/img/download.png',
                 text: 'Cúrriculo Virtual',
                 press: () =>
                     _launchLink('http://lattes.cnpq.br/8245071391810414'),

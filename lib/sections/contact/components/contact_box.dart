@@ -38,30 +38,30 @@ class ContactBox extends StatelessWidget {
             children: [
               SocialCard(
                 color: const Color.fromRGBO(245, 245, 245, 1),
-                iconSrc: '../assets/img/GitHub-Mark-32px.png',
+                iconSrc: 'assets/img/GitHub-Mark-32px.png',
                 name: 'GitHub',
                 press: () => _launchLink('https://github.com/gabriel-baptista'),
               ),
               SocialCard(
                 color: const Color(0xFFE4FFC7),
-                iconSrc: '../assets/img/whatsapp.png',
+                iconSrc: 'assets/img/whatsapp.png',
                 name: 'WhatsApp',
                 press: () => _launchLink(
                     'https://api.whatsapp.com/send?phone=5512982256685'),
               ),
               SocialCard(
                 color: const Color(0xFFFFE0E0),
-                iconSrc: '../assets/img/instagram-logo.png',
+                iconSrc: 'assets/img/instagram-logo.png',
                 name: 'Instagram',
                 press: () =>
                     _launchLink('https://www.instagram.com/gabriel.baptista_/'),
               ),
             ],
           ),
-          const SizedBox(
-            height: kDefaultPadding * 2,
-          ),
-          const ContactForm(),
+          // const SizedBox(
+          //   height: kDefaultPadding * 2,
+          // ),
+          // const ContactForm(),
         ],
       ),
     );

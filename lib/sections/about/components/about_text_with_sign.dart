@@ -22,7 +22,7 @@ class AboutTextWithSign extends StatelessWidget {
         const SizedBox(
           height: kDefaultPadding * 2,
         ),
-        Image.asset('../assets/img/sign.png'),
+        Image.asset('assets/img/sign.png'),
       ],
     );
   }

@@ -12,7 +12,7 @@ class PersonPic extends StatelessWidget {
         maxWidth: 369,
         maxHeight: 860,
       ),
-      child: Image.asset('../assets/img/bonecoGabriel.png'),
+      child: Image.asset('assets/img/bonecoGabriel.png'),
       // child: Image.asset('../assets/img/GadoDemais.png'),
       // child: Image.asset('../assets/img/gabriel.png'),
     );

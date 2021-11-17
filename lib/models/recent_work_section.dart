@@ -22,7 +22,7 @@ List<RecentWork> recentWorks = [
     title: "Yin Yang",
     category:
         "Aplicação WEB / Mobile para auxiliar na gerência de clínicas de nutrição. \n\nTecnologias: Dart, Flutter e Firebase. \n\nProjeto Privado.",
-    image: "../assets/img/yin_yang_logo.png",
+    image: "assets/img/yin_yang_logo.png",
     url: '#',
     private: true,
   ),
@@ -31,7 +31,7 @@ List<RecentWork> recentWorks = [
     title: "Food Break",
     category:
         "Aplicativo para delivery de refeições e gerenciamento de restaurantes, utilizando apenas estrutura de dados. \n\nTecnologias: Dart e Flutter.",
-    image: "../assets/img/foodBreak.png",
+    image: "assets/img/foodBreak.png",
     url: 'https://github.com/gabriel-baptista/projeto',
     private: false,
   ),
@@ -40,7 +40,7 @@ List<RecentWork> recentWorks = [
     title: "Clone PicPay",
     category:
         "Aplicativo clone do PicPay, para fins de estudos. \n\nTecnologias: Dart e Flutter.",
-    image: "../assets/img/picpay.png",
+    image: "assets/img/picpay.png",
     url: 'https://github.com/gabriel-baptista/clone_picpay',
     private: false,
   ),
@@ -49,7 +49,7 @@ List<RecentWork> recentWorks = [
     title: "Tarefas",
     category:
         "Aplicativo de para listar tarefas a fazer ou concluídas, para fins educativos. \n\nTecnologias: Dart e Flutter.",
-    image: "../assets/img/checkList.png",
+    image: "assets/img/checkList.png",
     url: 'https://github.com/gabriel-baptista/lista_tarefas_flutter',
     private: false,
   ),
@@ -58,7 +58,7 @@ List<RecentWork> recentWorks = [
     title: "Yin Yang",
     category:
         "Aplicativo para gerenciar uma clínica nutricionista. \n\nTecnologias: C# e MySQL.",
-    image: "../assets/img/nutricao.png",
+    image: "assets/img/nutricao.png",
     url: 'https://github.com/gabriel-baptista/Yin-Yang/tree/main/YinYang',
     private: false,
   ),
@@ -67,7 +67,7 @@ List<RecentWork> recentWorks = [
     title: "Yin Yang",
     category:
         "Aplicativo para gerenciar uma clínica nutricionista. \n\nTecnologias: JAVA e MySQL.",
-    image: "../assets/img/nutricao.png",
+    image: "assets/img/nutricao.png",
     url: 'https://github.com/gabriel-baptista/Yin-Yang/tree/main/YinYang',
     private: false,
   ),

@@ -25,7 +25,7 @@ List<Service> services = [
   Service(
     id: 2,
     title: "Desenvolvimento \nHíbrido",
-    image: "../assets/img/mobileDesktop.png",
+    image: "assets/img/mobileDesktop.png",
     color: Color(0xFFE4FFC7),
   ),
   Service(

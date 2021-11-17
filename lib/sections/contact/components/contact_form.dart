@@ -65,7 +65,7 @@ class ContactForm extends StatelessWidget {
           Center(
             child: FittedBox(
               child: DefaultButton(
-                imageSrc: '../assets/img/contact_icon.png',
+                imageSrc: 'assets/img/contact_icon.png',
                 text: 'Contate-me',
                 press: () => _launchLink('mailto:gbdso16@gmail.com'),
               ),
