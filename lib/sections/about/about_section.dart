@@ -34,7 +34,7 @@ class AboutSection extends StatelessWidget {
               Expanded(
                 child: AboutSectionText(
                   text:
-                      'Estudante de Análise e Desenvolvimento de Sistemas pela faculdade Prof. Waldomiro May. Iniciei no mundo em 2018 através de um curso técnico de Desenvolvimento de Sistemas.',
+                      'Estudante de Análise e Desenvolvimento de Sistemas pela faculdade Prof. Waldomiro May. Iniciei no mundo de tecnologia em 2018 através de um curso técnico de Desenvolvimento de Sistemas.',
                 ),
               ),
               ExperienceCard(
@@ -43,7 +43,7 @@ class AboutSection extends StatelessWidget {
               Expanded(
                 child: AboutSectionText(
                   text:
-                      'Atualmente estou com foco em front-end para aplicações Web e aplicações híbridas com Dart e Flutter. Também amo trabalhar com criação e gerenciamento de Banco de Dados.\nEstou estagiando no INPE no desenvolvimento de uma plataforma de WebMapping',
+                      'Atualmente estou com foco em front-end para aplicações Web e aplicações híbridas com Dart e Flutter. Também amo trabalhar com criação e gerenciamento de Banco de Dados.\n- 2022 - Estágio de Infraestruturas de rede e suporte ao cliente na IOCHPE-MAXION.\n- 2021 - Estágio no INPE com desenvolvimento de uma plataforma de WebMapping',
                 ),
               ),
             ],
