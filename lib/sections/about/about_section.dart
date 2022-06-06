@@ -43,7 +43,7 @@ class AboutSection extends StatelessWidget {
               Expanded(
                 child: AboutSectionText(
                   text:
-                      '2022 - Estágio de Infraestruturas de rede e suporte ao cliente na IOCHPE-MAXION.\n2021 - Estágio no INPE com desenvolvimento de uma plataforma de WebMapping',
+                      '2022 - IOCHPE-MAXION\nEstágio de infraestruturas de redes e suporte ao cliente.\n\n2021 - INPE\nBolsa PIBITI para desenvolvimento de uma plataforma de WebMapping',
                 ),
               ),
             ],
