@@ -22,7 +22,7 @@ List<RecentWork> recentWorks = [
     title: "Netflix",
     category:
         "Site clone da Netflix com o objetivo de aprender React. \n\nTecnologias: React JS",
-    image: "assets/img/netflix.png",
+    image: "assets/img/Netflix-logo.png",
     url: 'https://netflix.gabrieloliveira.dev',
     private: true,
   ),
