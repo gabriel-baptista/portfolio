@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 import 'package:portfolio/components/hireme_card.dart';
 import 'package:portfolio/components/section_title.dart';
 import 'package:portfolio/constants.dart';

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/painting.dart';
 import 'package:portfolio/components/section_title.dart';
 import 'package:portfolio/constants.dart';
 import 'package:portfolio/models/service.dart';
