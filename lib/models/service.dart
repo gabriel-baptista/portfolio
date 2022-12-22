@@ -30,7 +30,7 @@ List<Service> services = [
   ),
   Service(
     id: 3,
-    title: "UI Design",
+    title: "Infraestrutura",
     image: "assets/img/ui.png",
     color: Color(0xFFFFE0E0),
   ),
