@@ -46,7 +46,7 @@ class GlassContent extends StatelessWidget {
                 ),
               ),
               Text(
-                'Front-End Developer',
+                'Infrastructure Analyst and Web Developer',
                 style: Theme.of(context).textTheme.headline5!.copyWith(
                       color: Colors.white,
                       height: 1,
