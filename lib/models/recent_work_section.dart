@@ -19,15 +19,24 @@ class RecentWork {
 List<RecentWork> recentWorks = [
   RecentWork(
     id: 1,
-    title: "Yin Yang",
+    title: "Netflix",
     category:
-        "Aplicação WEB / Mobile para auxiliar na gerência de clínicas de nutrição. \n\nTecnologias: Dart, Flutter e Firebase. \n\nProjeto Privado.",
-    image: "assets/img/yin_yang_logo.png",
-    url: '#',
+        "Site clone da Netflix com o objetivo de aprender React. \n\nTecnologias: React JS",
+    image: "assets/img/netflix.png",
+    url: 'https://netflix.gabrieloliveira.dev',
     private: true,
   ),
   RecentWork(
     id: 2,
+    title: "Yin Yang",
+    category:
+        "Aplicação WEB / Mobile para auxiliar na gerência de clínicas de nutrição. \n\nTecnologias: Dart, Flutter e Firebase.",
+    image: "assets/img/yin_yang_logo.png",
+    url: 'https://yinyang.gabrieloliveira.dev',
+    private: true,
+  ),
+  RecentWork(
+    id: 3,
     title: "Food Break",
     category:
         "Aplicativo para delivery de refeições e gerenciamento de restaurantes, utilizando apenas estrutura de dados. \n\nTecnologias: Dart e Flutter.",
@@ -36,7 +45,7 @@ List<RecentWork> recentWorks = [
     private: false,
   ),
   RecentWork(
-    id: 3,
+    id: 4,
     title: "Clone PicPay",
     category:
         "Aplicativo clone do PicPay, para fins de estudos. \n\nTecnologias: Dart e Flutter.",
@@ -45,7 +54,7 @@ List<RecentWork> recentWorks = [
     private: false,
   ),
   RecentWork(
-    id: 4,
+    id: 5,
     title: "Tarefas",
     category:
         "Aplicativo de para listar tarefas a fazer ou concluídas, para fins educativos. \n\nTecnologias: Dart e Flutter.",
@@ -54,7 +63,7 @@ List<RecentWork> recentWorks = [
     private: false,
   ),
   RecentWork(
-    id: 5,
+    id: 6,
     title: "Yin Yang",
     category:
         "Aplicativo para gerenciar uma clínica nutricionista. \n\nTecnologias: C# e MySQL.",
@@ -63,7 +72,7 @@ List<RecentWork> recentWorks = [
     private: false,
   ),
   RecentWork(
-    id: 6,
+    id: 7,
     title: "Yin Yang",
     category:
         "Aplicativo para gerenciar uma clínica nutricionista. \n\nTecnologias: JAVA e MySQL.",
