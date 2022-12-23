@@ -50,7 +50,7 @@ class ContactBox extends StatelessWidget {
               ),
               SocialCard(
                 color: Color.fromARGB(255, 204, 232, 255),
-                iconSrc: 'img/linkedin-logo.png',
+                iconSrc: 'assets/img/linkedin-logo.png',
                 name: 'LinkedIn',
                 press: () => _launchLink(
                     'https://www.linkedin.com/in/gabriel-baptista-oliveira'),
