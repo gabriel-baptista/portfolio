@@ -49,11 +49,11 @@ class ContactBox extends StatelessWidget {
                     'https://api.whatsapp.com/send?phone=5512982256685'),
               ),
               SocialCard(
-                color: const Color(0xFFFFE0E0),
-                iconSrc: 'assets/img/instagram-logo.png',
-                name: 'Instagram',
-                press: () =>
-                    _launchLink('https://www.instagram.com/gabriel.baptista_/'),
+                color: Color.fromARGB(255, 204, 232, 255),
+                iconSrc: 'img/linkedin-logo.png',
+                name: 'LinkedIn',
+                press: () => _launchLink(
+                    'https://www.linkedin.com/in/gabriel-baptista-oliveira'),
               ),
             ],
           ),
