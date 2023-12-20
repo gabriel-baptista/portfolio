@@ -33,7 +33,7 @@ class AboutSection extends StatelessWidget {
               Expanded(
                 child: AboutSectionText(
                   text:
-                      'Formado em Análise e Desenvolvimento de Sistemas pela faculdade Prof. Waldomiro May.\nAtualmente estou com foco em front-end para aplicações Web e aplicações híbridas com Flutter. Também gerencio ativamente 2 servidores próprios (WIndows e Linux) para colocar meus conhecimentos em prática.',
+                      'Formado em Análise e Desenvolvimento de Sistemas pela faculdade FATEC Prof. Waldomiro May. Atualmente estou com foco em front-end para aplicações Web e aplicações híbridas com Flutter. Também gerencio ativamente 2 servidores próprios (WIndows e Linux) para colocar meus conhecimentos em prática.',
                 ),
               ),
               ExperienceCard(
