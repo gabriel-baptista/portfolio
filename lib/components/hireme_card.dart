@@ -60,7 +60,7 @@ class HireMeCard extends StatelessWidget {
           DefaultButton(
             text: "Contrate-me",
             imageSrc: "assets/img/hand.png",
-            press: () => _launchLink('mailto:gbdso16@gmail.com'),
+            press: () => _launchLink('mailto:gabriel@gabrieloliveira.dev'),
           )
         ],
       ),

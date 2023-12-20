@@ -33,7 +33,7 @@ class AboutSection extends StatelessWidget {
               Expanded(
                 child: AboutSectionText(
                   text:
-                      'Estudante de Análise e Desenvolvimento de Sistemas pela faculdade Prof. Waldomiro May.\nAtualmente estou com foco em front-end para aplicações Web e aplicações híbridas com Dart e Flutter. Também gosto de trabalhar com criação e gerenciamento de Banco de Dados.',
+                      'Formado em Análise e Desenvolvimento de Sistemas pela faculdade Prof. Waldomiro May.\nAtualmente estou com foco em front-end para aplicações Web e aplicações híbridas com Flutter. Também gerencio ativamente 2 servidores próprios (WIndows e Linux) para colocar meus conhecimentos em prática.',
                 ),
               ),
               ExperienceCard(
@@ -55,8 +55,8 @@ class AboutSection extends StatelessWidget {
             children: [
               MyOutlineButton(
                 imageSrc: 'assets/img/hand.png',
-                text: 'Contrate-me',
-                press: () {},
+                text: 'E-mail',
+                press: () => _launchLink('mailto:gabriel@gabrieloliveira.dev'),
               ),
               const SizedBox(
                 width: kDefaultPadding * 1.5,
@@ -64,8 +64,8 @@ class AboutSection extends StatelessWidget {
               DefaultButton(
                 imageSrc: 'assets/img/download.png',
                 text: 'Cúrriculo Virtual',
-                press: () =>
-                    _launchLink('http://lattes.cnpq.br/8245071391810414'),
+                press: () => _launchLink(
+                    'https://www.canva.com/design/DAFVY13e_Bc/mcFU4r0LB-tmcY36Nu6ymA/view?website#4'),
               ),
             ],
           ),

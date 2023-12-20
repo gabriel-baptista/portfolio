@@ -19,11 +19,20 @@ class RecentWork {
 List<RecentWork> recentWorks = [
   RecentWork(
     id: 1,
+    title: "YinYang (TG)",
+    category:
+        "O YinYang foi desenvolvido com o intuito de ser uma plataforma para auxiliar os nutricionistas em suas consultas, podendo adicionar informações e analisá-las através de gráficos. \n\nEsse site foi desenvolvido como Trabalho de Graduação para a faculdade FATEC Prof. Waldomiro May. \n\nTecnologias: React JS, Laravel e MySQL",
+    image: "assets/img/yin_yang_logo.png",
+    url: 'https://github.com/gabriel-baptista/Yin-Yang',
+    private: true,
+  ),
+  RecentWork(
+    id: 1,
     title: "Netflix",
     category:
         "Site clone da Netflix com o objetivo de aprender React. \n\nTecnologias: React JS",
     image: "img/Netflix-logo.png",
-    url: 'https://netflix.gabrieloliveira.dev',
+    url: 'https://github.com/gabriel-baptista/netflixclone',
     private: true,
   ),
   RecentWork(
